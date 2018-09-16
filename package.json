@@ -1,6 +1,6 @@
 {
   "name": "staticpeer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "static, remote peers for dat archives",
   "main": "index.js",
   "scripts": {

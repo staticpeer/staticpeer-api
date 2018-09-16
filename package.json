@@ -1,0 +1,42 @@
+{
+  "name": "staticpeer",
+  "version": "0.0.0",
+  "description": "static, remote peers for dat archives",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/*.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staticland/staticpeer.git"
+  },
+  "keywords": [
+    "dat",
+    "hyperdrive",
+    "hypercore",
+    "staticland"
+  ],
+  "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staticland/staticpeer/issues"
+  },
+  "homepage": "https://github.com/staticland/staticpeer#readme",
+  "dependencies": {
+    "dat-dns": "^3.0.2",
+    "fastify": "^1.11.2",
+    "hypercore-archiver": "^4.6.0",
+    "level-model": "^3.1.1",
+    "level-party": "^3.0.4",
+    "pump": "^3.0.0",
+    "township": "^2.0.0",
+    "township-email": "^1.0.0",
+    "township-reset-password-token": "^1.0.0"
+  },
+  "devDependencies": {
+    "documentation": "^8.1.2",
+    "standard": "^12.0.1",
+    "tape": "^4.9.1"
+  }
+}

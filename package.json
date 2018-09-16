@@ -1,5 +1,5 @@
 {
-  "name": "staticpeer",
+  "name": "staticpeer-api",
   "version": "0.0.1",
   "description": "static, remote peers for dat archives",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/staticland/staticpeer.git"
+    "url": "git+https://github.com/staticpeer/staticpeer-api.git"
   },
   "keywords": [
     "dat",
@@ -20,9 +20,9 @@
   "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/staticland/staticpeer/issues"
+    "url": "https://github.com/staticpeer/staticpeer-api/issues"
   },
-  "homepage": "https://github.com/staticland/staticpeer#readme",
+  "homepage": "https://github.com/staticpeer/staticpeer-api#readme",
   "dependencies": {
     "dat-dns": "^3.0.2",
     "fastify": "^1.11.2",
